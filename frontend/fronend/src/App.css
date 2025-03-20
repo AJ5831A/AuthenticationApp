@@ -1,0 +1,60 @@
+/* Apply styles to the whole page */
+.myBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+/* White box for the login form */
+.whiteBox {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each item inside the white box */
+.itemBox {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Custom MUI TextField */
+.myform {
+  width: 100%;
+}
+
+/* Button styling */
+.itemBox button {
+  background: #6e8efb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.itemBox button:hover {
+  background: #a777e3;
+}
+
+/* Register link styling */
+.itemBox a {
+  color: #6e8efb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.itemBox a:hover {
+  text-decoration: underline;
+}
